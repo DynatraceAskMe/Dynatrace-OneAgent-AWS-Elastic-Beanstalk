@@ -24,8 +24,8 @@ How to get ONEAGENT_INSTALLER_SCRIPT_URL. Please follow this step details as bel
 			3.	The Elastic Beanstalk extension script file names are important—the Amazon interpreter executes them in alphabetical order.  
 
 ## To install OneAgent, you need configuration files  
-1. In the beanstalk deploy package, create .ebextention directory.
-2. In the .ebextention directory create configuration file. For example 1dynatraceInstallAndPost.config
+1. In the beanstalk deploy package, create **.ebextentions** directory.
+2. In the .ebextention directory create configuration file. For example **1dynatraceInstallAndPost.config**
 3. The file must contain a files section that defines.  
 	3.1		The download path and target file name (for example, /tmp/dynatraceinstall.sh)  
 	3.2		Proper user rights settings  
