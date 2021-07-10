@@ -45,6 +45,8 @@ How to get ONEAGENT_INSTALLER_SCRIPT_URL. Please follow this step details as bel
         command: "/bin/sh Dynatrace-OneAgent.sh --set-host-group=Test-Host-Group" 
 
 [![message-Image-1625844256114.jpg](https://i.postimg.cc/G3v3LqJ0/message-Image-1625844256114.jpg)](https://postimg.cc/Dmy35QM5)
+If you want to add more parameters, separate them with spaces. To learn more about installation parameters, see  
+[how to customize OneAgent installation on Linux.](https://www.dynatrace.com/support/help/shortlink/linux-custom-installation)
 
 ## Deploy Dynatrace Oneagent script on AWS Elastic Beanstalk  
  1.	Go to AWS Elastic Beanstalk, and then click **Upload and deploy**  
